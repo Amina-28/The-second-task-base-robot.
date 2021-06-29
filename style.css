@@ -1,0 +1,92 @@
+
+body
+{
+    background-image: url('robot1.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    height: 900px;
+    width: 900px;
+    background-size: cover;
+    font-family: Tahoma;
+    place-items:center;
+    display: grid;
+    background-attachment: fixed;
+   background-position: center;
+   
+  }
+ 
+  #countener
+
+  {
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    border-radius: 30px;
+    padding: 20px;
+    margin-right: 500px;
+
+  
+  }
+
+
+   button
+   {
+    margin: 10px;
+    background-color: lightblue;
+    width: 100px;
+    height: 30px;
+    color: #353637;
+    border-radius: 19px;
+    box-shadow: 0 9px #999;
+   }
+
+
+
+   button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color:black;
+    color: white;
+  }
+
+
+  button:active {
+    background-color: lightskyblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+   .left
+   {
+       display:inline;
+       margin: 20px;
+   }
+  
+    .Stop
+   {
+       display:inline;
+       margin: 20px;
+   }
+    .Right
+   {
+       display:inline;
+       margin: 20px;
+   }
+
+   .forword
+
+   {
+       margin-bottom: 30px;
+   }
+
+
+   .pegdown
+   {
+       margin-top: 30px;
+   }
+   
+
+   
+   body
+   {
+     margin: 0;
+     padding: 0;
+   }
